@@ -1,17 +1,14 @@
+import "./App.css";
 
-import './App.css';
-import Dropdown from './Components/Dropdown';
-
-import Modal from './Components/Modal'
+import Modal from "./Components/Modal";
 
 function App() {
-  return (
-    <div className="App">
-      <Modal/>
-      <Dropdown/>
-        hello 
-    </div>
-  );
+	return (
+		<div className="App">
+			<Modal />
+			{/* <Dropdown/> */}
+		</div>
+	);
 }
 
 export default App;
